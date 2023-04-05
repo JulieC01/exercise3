@@ -66,7 +66,7 @@ function output() {
 //innerhtml is just saying to change what the html is
 
 let picture = document.createElement('img');
-  colorInput.appendChild(picture);
+next.appendChild(picture);
 
   
   
@@ -75,8 +75,8 @@ let picture = document.createElement('img');
     picture.src = './images/ramen.png'; 
     Answer1.innerHTML = answers; 
     let a = createA('next.html', 'next');  
-    a.id('next'); //make id of next
-    colorInput.appendChild(next);
+    a.id('next'); 
+    next.appendChild(picture);
   } else if ((answers == "curry") || (answers == "Curry")){
     picture.src = './images/curry.png'; 
   } else if ((answers == "sushi") || (answers == "Sushi")){
@@ -86,4 +86,3 @@ let picture = document.createElement('img');
     Answer1.innerHTML = "Please choose another food";
   }
 }
-
