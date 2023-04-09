@@ -72,7 +72,7 @@ let picture = document.createElement('img');
   
 
   if ((answers == "ramen") || (answers == "Ramen")) { //if what I've written... == is just checking that char is all the same, === evaluate data as well
-    picture.src = 'ramenrec.png'; 
+    picture.src = './images/ramenrec.png'; 
     Answer1.innerHTML = answers; 
     let a = createA('next.html', 'next');  
     a.id('next'); //make id of next
@@ -80,7 +80,7 @@ let picture = document.createElement('img');
     next.appendChild(picture);
     
   } else if ((answers == "curry") || (answers == "Curry")){
-    picture.src = 'images/curryrec.png'; 
+    picture.src = './images/curryrec.png'; 
     Answer1.innerHTML = answers; 
     let a = createA('next2.html', 'next');  
     a.id('next2'); //make id of next
