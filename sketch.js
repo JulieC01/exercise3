@@ -80,7 +80,7 @@ let picture = document.createElement('img');
     next.appendChild(picture);
     
   } else if ((answers == "curry") || (answers == "Curry")){
-    picture.src = './images/curryrec.png'; 
+    picture.src = 'images/curryrec.png'; 
     Answer1.innerHTML = answers; 
     let a = createA('next2.html', 'next');  
     a.id('next2'); //make id of next
