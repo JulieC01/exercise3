@@ -87,7 +87,6 @@ let picture = document.createElement('img');
     colorInput.appendChild(next2);
     next2.appendChild(picture);
   } else if ((answers == "sushi") || (answers == "Sushi")){
-    background(0,255,0);
     picture.src = './images/sushirec.png'; 
     Answer1.innerHTML = answers; 
     let a = createA('next3.html', 'next');  
@@ -95,7 +94,6 @@ let picture = document.createElement('img');
     colorInput.appendChild(next3);
     next3.appendChild(picture);
   }  else if ((answers == "takoyaki") || (answers == "Takoyaki")){
-    background(0,255,0);
     picture.src = './images/takoyakirec.png'; 
     Answer1.innerHTML = answers; 
     let a = createA('next4.html', 'next');  
@@ -103,7 +101,6 @@ let picture = document.createElement('img');
     colorInput.appendChild(next4);
     next4.appendChild(picture);
    } else if ((answers == "udon") || (answers == "Udon")){
-    background(0,255,0);
     picture.src = './images/udonrec.png'; 
     Answer1.innerHTML = answers; 
     let a = createA('next5.html', 'next');  
