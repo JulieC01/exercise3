@@ -80,21 +80,21 @@ let picture = document.createElement('img');
     next.appendChild(picture);
     
   } else if ((answers == "curry") || (answers == "Curry")){
-    picture.src = "images/curryrec.png"; 
+    picture.src = 'images/curryrec.png'; 
     Answer1.innerHTML = answers; 
     let a = createA('next2.html', 'next');  
     a.id('next2'); //make id of next
     colorInput.appendChild(next2);
     next2.appendChild(picture);
   } else if ((answers == "sushi") || (answers == "Sushi")){
-    picture.src = "images/sushirec.png"; 
+    picture.src = 'images/sushirec.png'; 
     Answer1.innerHTML = answers; 
     let a = createA('next3.html', 'next');  
     a.id('next3'); //make id of next
     colorInput.appendChild(next3);
     next3.appendChild(picture);
   }  else if ((answers == "takoyaki") || (answers == "Takoyaki")){
-    picture.src = "images/takoyakirec.png"; 
+    picture.src = 'images/takoyakirec.png'; 
     Answer1.innerHTML = answers; 
     let a = createA('next4.html', 'next');  
     a.id('next4'); //make id of next
